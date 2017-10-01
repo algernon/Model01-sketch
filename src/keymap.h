@@ -84,18 +84,18 @@ const Key keymaps[][ROWS][COLS] PROGMEM = {
 
   [_ADORE] = KEYMAP_STACKED
   (
-    TD(F11)       ,Key_LCB ,Key_AT ,Key_STAR  ,Key_DOLLR ,Key_CARET  ,TD(TMUX)
-   ,Key_Backslash ,Key_X   ,Key_W  ,Key_C     ,Key_H     ,Key_F      ,TD(LPB)
-   ,Key_Tab       ,Key_A   ,Key_O  ,Key_E     ,Key_I     ,Key_U
-   ,TD(GUI)       ,Key_Z   ,Key_Q  ,Key_Quote ,Key_Comma ,Key_Period ,OSM(LeftControl)
+    TD(F11)       ,Key_LCB   ,Key_AT ,Key_STAR ,Key_DOLLR ,Key_CARET ,TD(TMUX)
+   ,Key_Backslash ,Key_Quote ,Key_W  ,Key_C    ,Key_H     ,Key_F     ,TD(LPB)
+   ,Key_Tab       ,Key_A     ,Key_O  ,Key_E    ,Key_I     ,Key_U
+   ,TD(GUI)       ,Key_Z     ,Key_Q  ,Key_X    ,Key_B     ,Key_Comma ,OSM(LeftControl)
 
    ,TD(COLON)  ,Key_Backspace ,OSM(LeftShift) ,Key_Escape
    ,OSL(_NAV)
 
-   ,TD(TMUXP)    ,Key_PRCNT ,Key_EXCLM ,Key_HASH ,Key_AND ,Key_RCB   ,TD(MNP)
-   ,TD(RPB)      ,Key_M     ,Key_G     ,Key_L    ,Key_P   ,Key_Slash ,Key_Backslash
-                 ,Key_D     ,Key_R     ,Key_T    ,Key_N   ,Key_S     ,Key_Equals
-   ,OSM(LeftAlt) ,Key_B     ,Key_K     ,Key_V    ,Key_Y   ,Key_J     ,Key_PlayPause
+   ,TD(TMUXP)    ,Key_PRCNT  ,Key_EXCLM ,Key_HASH ,Key_AND ,Key_RCB   ,TD(MNP)
+   ,TD(RPB)      ,Key_M      ,Key_G     ,Key_L    ,Key_P   ,Key_Slash ,Key_Backslash
+                 ,Key_D      ,Key_R     ,Key_T    ,Key_N   ,Key_S     ,Key_Equals
+   ,OSM(LeftAlt) ,Key_Period ,Key_K     ,Key_V    ,Key_Y   ,Key_J     ,Key_PlayPause
 
    ,LEAD(MAIN) ,Key_Enter ,Key_Spacebar ,Key_Minus
    ,OSL(_AUX)
