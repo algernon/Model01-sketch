@@ -46,7 +46,7 @@ This is a [Dvorak][dvorak]-inspired layout, with some changes here and there, to
   - By default, the modifiers and palm keys are highlighted with different colors.
   - On different layers, the keys that have changed behaviour, are colored differently.
   - When a modifier is active, the [LED-ActiveModColor][kaleidoscope:led-activemodcolor] plugin turns it white.
-  - Additional LED effects are provided by [LED-Stalker][kaleidoscope:led-stalker], [LED-Wavepool][kaleidoscope:led-wavepool], and [LEDEffect-DigitalRain][kaleidoscope:ledeffec-digitalrain]. All of these are conditional.
+  - Additional LED effects are provided by [LED-Stalker][kaleidoscope:led-stalker], [LED-Wavepool][kaleidoscope:led-wavepool], and [LEDEffect-DigitalRain][kaleidoscope:ledeffect-digitalrain]. All of these are conditional.
   - One can also switch LEDs off.
 * The top row was inspired by [Programmer Dvorak][dvorak:prg], but the symbols are arranged so that the most used ones are easier to access. The numbers are available in a numpad-like layout on a separate layer.
 * The `R0C6` and `R0C9` keys are to control `tmux` and `screen`, and are dependent on my tmux setup.
