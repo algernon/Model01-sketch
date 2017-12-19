@@ -18,15 +18,15 @@
 
 #pragma once
 
-#define KALEIDOSCOPE_HOSTOS_GUESSER 0
+#define KALEIDOSCOPE_HOSTOS_GUESSER  0
 
-#define WITH_PROGMEM_KEYMAP 0
+#define WITH_PROGMEM_KEYMAP          0
 
-#define WITH_STENO 1
+#define WITH_STENO                   1
 
 #if !WITH_PROGMEM_KEYMAP
-# define WITH_CYCLE_REPORT 0
-# define WITH_STALKER_EFFECT 0
-# define WITH_WAVEPOOL_EFFECT 0
-# define WITH_MATRIX_EFFECT 0
+# define WITH_CYCLE_REPORT           0
+# define WITH_STALKER_EFFECT         0
+# define WITH_WAVEPOOL_EFFECT        0
+# define WITH_MATRIX_EFFECT          0
 #endif
