@@ -114,6 +114,7 @@ void tapDanceAction(uint8_t tapDanceIndex, byte row, byte col, uint8_t tapCount,
   case VOLD:
     return tapDanceActionKeys(tapCount, tapDanceAction,
                               Consumer_VolumeDecrement,
+                              Consumer_VolumeIncrement,
                               Key_Mute);
   }
 }

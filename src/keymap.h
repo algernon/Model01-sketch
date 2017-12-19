@@ -79,17 +79,17 @@ const Key keymaps[][ROWS][COLS] PROGMEM = {
     M(F11)        ,Key_LCB   ,Key_AT    ,Key_STAR   ,Key_DOLLR ,Key_CARET ,TD(TMUX)
    ,Key_Backtick  ,Key_Quote ,Key_Comma ,Key_Period ,Key_P     ,Key_Y     ,TD(LPB)
    ,Key_Tab       ,Key_A     ,Key_O     ,Key_E      ,Key_U     ,Key_I
-   ,TD(MNP)       ,Key_Slash ,Key_Q     ,Key_J      ,Key_K     ,Key_X     ,OSM(LeftControl)
+   ,TD(MNP)       ,Key_Slash ,Key_Q     ,Key_J      ,Key_K     ,Key_X     ,TD(COLON)
 
-   ,TD(COLON) ,Key_Backspace ,OSM(LeftShift) ,Key_Escape
+   ,OSM(LeftControl) ,Key_Backspace ,OSM(LeftShift) ,Key_Escape
    ,OSL(_NAV)
 
    ,TD(TMUXP)    ,Key_PRCNT ,Key_EXCLM ,Key_HASH ,Key_AND ,Key_RCB ,Key_PlayPause
    ,TD(RPB)      ,Key_F     ,Key_G     ,Key_C    ,Key_R   ,Key_L   ,Key_Backslash
                  ,Key_D     ,Key_H     ,Key_T    ,Key_N   ,Key_S   ,Key_Equals
-   ,OSM(LeftAlt) ,Key_B     ,Key_M     ,Key_W    ,Key_V   ,Key_Z   ,LEAD(MAIN)
+   ,Key_Minus    ,Key_B     ,Key_M     ,Key_W    ,Key_V   ,Key_Z   ,LEAD(MAIN)
 
-   ,Key_LeftGui ,Key_Enter ,Key_Spacebar ,Key_Minus
+   ,Key_LeftGui ,Key_Enter ,Key_Spacebar ,OSM(LeftAlt)
    ,OSL(_AUX)
   ),
 
@@ -98,17 +98,17 @@ const Key keymaps[][ROWS][COLS] PROGMEM = {
     TD(F11)       ,Key_LCB   ,Key_AT ,Key_STAR ,Key_DOLLR ,Key_CARET ,TD(TMUX)
    ,Key_Backslash ,Key_Quote ,Key_W  ,Key_C    ,Key_H     ,Key_F     ,TD(LPB)
    ,Key_Tab       ,Key_A     ,Key_O  ,Key_E    ,Key_I     ,Key_U
-   ,TD(MNP)       ,Key_Z     ,Key_Q  ,Key_X    ,Key_B     ,Key_Comma ,OSM(LeftControl)
+   ,TD(MNP)       ,Key_Z     ,Key_Q  ,Key_X    ,Key_B     ,Key_Comma ,TD(COLON)
 
-   ,TD(COLON) ,Key_Backspace ,OSM(LeftShift) ,Key_Escape
+   ,OSM(LeftControl) ,Key_Backspace ,OSM(LeftShift) ,Key_Escape
    ,OSL(_NAV)
 
    ,TD(TMUXP)    ,Key_PRCNT  ,Key_EXCLM ,Key_HASH ,Key_AND ,Key_RCB   ,Key_PlayPause
    ,TD(RPB)      ,Key_M      ,Key_G     ,Key_L    ,Key_P   ,Key_Slash ,Key_Backslash
                  ,Key_D      ,Key_R     ,Key_T    ,Key_N   ,Key_S     ,Key_Equals
-   ,OSM(LeftAlt) ,Key_Period ,Key_K     ,Key_V    ,Key_Y   ,Key_J     ,LEAD(MAIN)
+   ,Key_Minus    ,Key_Period ,Key_K     ,Key_V    ,Key_Y   ,Key_J     ,LEAD(MAIN)
 
-   ,Key_LeftGui ,Key_Enter ,Key_Spacebar ,Key_Minus
+   ,Key_LeftGui ,Key_Enter ,Key_Spacebar ,OSM(LeftAlt)
    ,OSL(_AUX)
   ),
 
@@ -117,17 +117,17 @@ const Key keymaps[][ROWS][COLS] PROGMEM = {
     ___ ,Key_F9 ,Key_F7 ,Key_F5 ,Key_F3 ,Key_F1 ,XXX
    ,XXX ,MS_SL  ,MW(NW) ,MM(Up) ,MW(NE) ,MS_SUP ,MW(End)
    ,XXX ,MS_SR  ,MM(L)  ,MM(Dn) ,MM(R)  ,MS_SDN
-   ,___ ,XXX    ,MW(SW) ,XXX    ,MW(SE) ,XXX    ,___
+   ,___ ,XXX    ,MW(SW) ,XXX    ,MW(SE) ,XXX    ,MM(BtnL)
 
-   ,MM(BtnL) ,MM(BtnR) ,___ ,___
+   ,___ ,___ ,___ ,___
    ,___
 
    ,LGUI(Key_L) ,Key_F10    ,Key_F2     ,Key_F4      ,Key_F6     ,Key_F8 ,XXX
    ,XXX         ,Key_PageUp ,Key_Home   ,Key_UpArrow ,Key_End    ,XXX    ,XXX
                 ,Key_PageDn ,Key_LArrow ,Key_DnArrow ,Key_RArrow ,XXX    ,XXX
-   ,___         ,XXX        ,XXX        ,XXX         ,XXX        ,XXX    ,XXX
+   ,MM(BtnR)    ,XXX        ,XXX        ,XXX         ,XXX        ,XXX    ,XXX
 
-   ,TD(VOLD) ,___ ,___ ,Consumer_VolumeIncrement
+   ,TD(VOLD) ,___ ,___ ,___
    ,OSL(_EMPTY)
   ),
 
@@ -136,17 +136,17 @@ const Key keymaps[][ROWS][COLS] PROGMEM = {
     XXX ,XXX       ,XXX        ,XXX       ,XXX        ,XXX       ,XXX
    ,XXX ,XXX       ,R(HUN_ODA) ,XXX       ,R(HUN_UDA) ,XXX       ,XXX
    ,XXX ,R(HUN_AA) ,R(HUN_OA)  ,R(HUN_EA) ,R(HUN_UA)  ,R(HUN_IA)
-   ,XXX ,XXX       ,R(HUN_OU)  ,XXX       ,R(HUN_UU)  ,XXX       ,___
+   ,XXX ,XXX       ,R(HUN_OU)  ,XXX       ,R(HUN_UU)  ,XXX       ,XXX
 
-   ,XXX ,___ ,___ ,___
+   ,___ ,___ ,___ ,___
    ,OSL(_EMPTY)
 
    ,XXX ,XXX   ,XXX   ,XXX   ,XXX   ,XXX ,XXX
    ,XXX ,XXX   ,Key_7 ,Key_8 ,Key_9 ,XXX ,XXX
         ,Key_0 ,Key_4 ,Key_5 ,Key_6 ,XXX ,XXX
-   ,___ ,XXX   ,Key_1 ,Key_2 ,Key_3 ,XXX ,XXX
+   ,XXX ,XXX   ,Key_1 ,Key_2 ,Key_3 ,XXX ,XXX
 
-   ,XXX ,XXX ,XXX ,XXX
+   ,XXX ,XXX ,XXX ,___
    ,___
   ),
 

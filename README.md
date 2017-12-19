@@ -58,7 +58,7 @@ This is a [Dvorak][dvorak]-inspired layout, with some changes here and there, to
   - `LEAD BUTTERFLY` (where `BUTTERFLY` is the `R2C9` key) does an `M-x butterfly RET y`, in honor of [xkcd#378](https://xkcd.com/378/).
   - `LEAD GUI` switches to a special `APPSEL` layer where a few (highlighted) keys on the right side can be used to select an application to switch to.
   - `LEAD Enter GUI` launches an application selector on the host side.
-* The `R0C7` key is also a [tap-dance][kaleidoscope:tap-dance] key, which inputs `:` on a single tap, `;` otherwise.
+* The `R2C6` key is also a [tap-dance][kaleidoscope:tap-dance] key, which inputs `:` on a single tap, `;` otherwise.
 * The `R0C0` key acts as `F11`, but triggers only on release. This is so that it can be held to go into programmable mode when re-flashing, without sending way too many `F11` held events.
 * There are a few other actions one can trigger with [magic combos][kaleidoscope:magic-combos]:
   - `PALMS + ADORE`: Switch to the [ADORE](#adore-layer) layer.
