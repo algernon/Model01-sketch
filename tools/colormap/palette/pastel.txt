@@ -9,7 +9,7 @@ palette
 255 170 200 # Pink                   -  6
 242 228 110 # Yellow                 -  7 *
 229 119 107 # Peach                  -  8 *
-242 242 242 # Unused                 -  9
+242 242 242 # White                  -  9
   0   0   0 # Unused                 - 10
   0   0   0 # Unused                 - 11
   0   0   0 # Unused                 - 12
